@@ -1,6 +1,6 @@
 /*
 Returns abbreviation of the String input in format: 1st letter + amount of removed letters + last letter.
-Example: abbreviation -> a10n
+Example: "abbreviation-satisfaction yabadabadoo babe" -> "a10n-s10n y9o b2e"
  */
 
 public class Abbreviator {
@@ -33,6 +33,6 @@ public class Abbreviator {
     }
 
     public static  void main(String[] args){
-        System.out.println(new Abbreviator().abbreviate("abbreviation"));
+        System.out.println(new Abbreviator().abbreviate("abbreviation-satisfaction yabadabadoo babe"));
     }
 }
