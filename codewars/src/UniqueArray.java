@@ -1,7 +1,3 @@
-/**
- * Created by litvinenko on 3/30/2016.
- */
-
 import java.util.*;
 
 public class UniqueArray {
