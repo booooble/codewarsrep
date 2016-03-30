@@ -1,5 +1,5 @@
 /*
-Modifies and return String where each word stars from the capital letter.
+Modifies and returns String where each word stars from the capital letter.
 Example: "most trees are blue" -> "Most Trees Are Blue"
  */
 import java.util.*;
