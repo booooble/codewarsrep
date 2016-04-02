@@ -1,3 +1,5 @@
+package javacode;
+
 import java.util.*;
 
 public class StringHelper {
@@ -52,10 +54,5 @@ public class StringHelper {
             return null;
         }
         return str.toString();
-    }
-
-    public static void main(String[] args) {
-        System.out.println(new StringHelper().abbreviate("abbreviation-satisfaction yabadabadoo babe"));
-        System.out.println(new StringHelper().toJadenCase("most trees are blue"));
     }
 }
