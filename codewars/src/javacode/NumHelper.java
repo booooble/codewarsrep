@@ -69,6 +69,9 @@ public class NumHelper {
         return result;
     }
 
+    /*
+    Method takes an array of integers and returns the array with duplicates removed
+     */
     public static int[] uniqueArray(int[] integers) {
         List<Integer> list = new ArrayList<>();
         try {
