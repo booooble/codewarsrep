@@ -8,7 +8,7 @@ public class StringHelperTest {
 
     @Test
     public void testAbbreviate() throws Exception {
-        assertEquals("i18n", StringHelper.abbreviate("internationalization"));
+        assertEquals("a10n-i18n b4n", StringHelper.abbreviate("abbreviation-internationalization batman"));
         assertNull("Must return null when the arg is null", StringHelper.abbreviate(null));
         assertNull("Must return null when the arg is null", StringHelper.abbreviate(""));
     }
